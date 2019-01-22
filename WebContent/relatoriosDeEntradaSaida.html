@@ -1,0 +1,80 @@
+<!-- Cabeçalho  - Início -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="ISO-8859-1">
+<title>Academia</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<div>
+				<a href="novoAluno.html">Novo Aluno</a><br>
+							<a href="PesquisaDeAluno.html">Pesquisa de aluno</a><br>
+							<a href="ControledeAcesso.html">Controle de Acesso</a><br>
+							<a href="RelatoriosDeEntradaSaida.html">Relatórios de Entrada e Saídas</a><br>
+							<a href="RelatoriosDeSituacoes.html">Relatórios de Situações</a><br>
+							
+		</div>
+		</nav>
+	</header>
+	<!-- Cabecalho - Final -->
+	<h1>Relatório de Entradas e Saídas</h1>
+	<div id="infoMenssage">
+	(Aqui vai eventual mensagem de sistema confirmando sucesso ou erro)
+	</div>
+	<br>
+	<form>
+	<fieldset>
+	
+	<legend>Parâmetros de Entradas e Saídas</legend>
+	<label for="id">ID</label><br>
+	<input type="text" name="id" id="id"><br>
+
+<label for="dataInicial">Data Inicial</label><br>
+	<input type="date" name="dataInicial" id="dataInicial"><br>
+	
+	<label for="dataFinal">Data Final</label><br>
+	<input type="date" name="dataFinal" id="dataFinal"><br>
+	
+</fieldset>
+	<input type="submit" value="Gerar relatório">
+	</form>
+	
+	<table>
+	<tr>
+		<th>ID</th>
+		<th>Nome</th>
+		<th>Entrada</th>
+		<th>Saída</th>
+		<th>Duração</th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>Carlos</td>
+		<td>05/03/2019 09:15:17</td>
+		<td>05/03/2019 10:30:20</td>
+		<td>01:5:10</td>
+		<td>
+		<input type="button" value="Editar"> 
+				<input type="button" value="Excluir"> 
+		
+		</td>
+		<tr>
+		<td>1</td>
+		<td>Carlos</td>
+		<td>05/03/2019 09:15:17</td>
+		<td>05/03/2019 10:30:20</td>
+		<td>01:5:10</td>
+		<td>
+		<input type="button" value="Editar"> 
+				<input type="button" value="Excluir"> 
+		
+		</td>
+	</tr>
+	</table>
+	<!-- Rodapé - Início -->
+</body>
+</html>
+	<!-- Rodapé - Fim -->
+

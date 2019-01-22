@@ -1,0 +1,113 @@
+<!-- Cabeçalho  - Início -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="ISO-8859-1">
+<title>Academia</title>
+<link rel="stylesheet" type="text/css" href="css/Academia_estilo.css">
+
+</head>
+<body>
+	<header>
+		<nav>
+			<div>
+				<a href="novoAluno.html">Novo Aluno</a><br>
+				<a href="PesquisaDeAluno.html">Pesquisa de aluno</a><br>
+  				<a href="ControledeAcesso.html">Controle de Acesso</a><br>
+  				<a href="RelatoriosDeEntradaSaida.html">Relatórios de Entrada e Saídas</a><br>
+				<a href="RelatoriosDeSituacoes.html">Relatórios de Situações</a><br>			
+		</div>
+		</nav>
+	</header>
+	<!-- Cabecalho - Final -->
+	<h1>Novo Aluno</h1>
+	<div id="infoMenssage">
+	(Aqui vai eventual mensagem de sistema confirmando sucesso ou erro)
+	</div>
+	
+	<br>
+	
+	<form>
+	<fieldset>
+	<legend>Dados Pessoais</legend>
+	<label for="nome">Nome:</label><br>
+	<input type="text" name="nome" id="nome"><br>
+	
+	<label for="sexo">Sexo</label><br>
+	<select name="sexo" id="sexo">
+	<option>Masculino</option>
+	<option>Feminino</option>
+	</select><br>
+	
+	<label for="rg">RG:</label><br>
+	<input type="text" name="rg" id="rg"><br>
+	
+	<label for="dataDeNascimento">Data de Nascimento:</label><br>
+	<input type="date" name="dataDeNascimento" id="dataDeNascimento">
+	
+	</fieldset>
+	
+	<br>
+	
+	<fieldset>
+	<legend>Situação</legend>
+	<label for="situacao" >Situação</label><br>
+	<select name="Situacao" id="situacao">
+	<option>Ativo</option>
+	<option>Inativo</option>
+	<option>Com pendência</option>
+	
+	</select>
+	</fieldset>
+	
+	<br>
+	
+		<fieldset>
+		<legend>Endereço</legend>
+		
+		<label for="rua">Rua</label><br>
+	<input type="text" name="rua" id="rua"><br>
+	
+			<label for="numero">Número</label><br>
+	<input type="text" name="numero" id="numero"><br>
+	
+			<label for="complemento">Complemento</label><br>
+	<input type="text" name="complemento" id="complemento"><br>
+	
+			<label for="cidade">Cidade</label><br>
+	<input type="text" name="cidade" id="cidade"><br>
+	
+	<label for="estado">Estado</label><br>
+	<select name="estado" id="estado">
+	<option>(lista)</option>
+	</select><br>
+	
+			<label for="cep">CEP</label><br>
+	<input type="text" name="cep" id="cep"><br>
+		</fieldset>
+	<br>
+	
+	<fieldset>
+	<legend>Contato</legend>
+	
+	<label for="email">E-mail</label>
+	<input type="email" name="email" id="email"><br>
+	
+			<label for="telefoneCelularDDD">Telefone Celular</label><br>
+	<input type="tel" name="telefoneCelularDDD" id="telefoneCelularDDD">
+	<input type="tel" name="telefoneCelularNumero" id="telefoneCelularNumero"><br>
+	
+	<label for="telefoneFixoDDD">Telefone Fixo</label><br>
+	<input type="tel" name="telefoneFixoDDD" id="telefoneFixoDDD">
+	<input type="tel" name="telefoneFixoNumero" id="telefoneFixoNumero">
+	</fieldset>
+	<br>
+	<input type="submit" value="Gravar">
+		<input type="button" value="Relatório de Acessos">
+	
+	</form>
+	<!-- Rodapé - Início -->
+</body>
+</html>
+	<!-- Rodapé - Fim -->
+
