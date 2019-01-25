@@ -1,7 +1,7 @@
 package br.com.luan.academia.application.util;
 
 public class StringUtils {
-	public static boolean IsEmpty(String s) {
+	public static boolean isEmpty(String s) {
 		if (s == null) {
 			return true;
 		}
@@ -15,7 +15,7 @@ public class StringUtils {
 	public static void main(String[] args) {
 
 		String str = "abc";
-		boolean b = StringUtils.IsEmpty(str);
+		boolean b = StringUtils.isEmpty(str);
 		System.out.println(b);
 	}
 }
